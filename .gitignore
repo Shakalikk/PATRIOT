@@ -5,6 +5,8 @@
 [Bb]uild/
 [Ll]ibrary/
 [Ll]ocal[Cc]ache/
+[Oo]bj/
+[Tt]emp/
 [Uu]nityGenerated/
 # file on crash reports
 sysinfo.txt
@@ -15,9 +17,17 @@ sysinfo.txt
 # VS/MD solution and project files
 ###
 [Ee]xportedObj/
+*.booproj
 *.csproj
 *.sln
+*.suo
+*.svd
 *.unityproj
+*.user
+*.userprefs
+*.pidb
+.DS_Store
+
 ###
 # OS generated
 ###
